@@ -1,5 +1,7 @@
 # yuka
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d7b66966-d178-46e2-8688-d8b8b2afe860/deploy-status)](https://app.netlify.com/sites/yuka-design-system/deploys)
+
 ## Project setup
 ```
 npm install

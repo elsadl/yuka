@@ -27,6 +27,7 @@ export default {
 
 .category-header a h1 {
   font-weight: 900;
+  font-family: "Nunito", sans-serif;
 }
 
 .category-header a h1 .light {

@@ -1,7 +1,7 @@
 <template>
   <div class="main-grid">
     <div class="grid-container">
-      <h1>Un design system <br>pensé pour les utilisateurs.</h1>
+      <h1>Un design system pensé pour les utilisateurs.</h1>
       <div class="grid-element" :key="index" v-for="(cat, index) in categories">
         <div class="grid-element-flex">
           <div class="grid-element-content">
@@ -119,7 +119,7 @@ export default {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 730px) {
   .grid-container {
     grid-gap: 60px;
     margin: 30px auto;

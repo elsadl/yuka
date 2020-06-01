@@ -29,6 +29,7 @@ export default {
 
 .logo-container h1 {
   font-weight: 900;
+  font-family: "Nunito", sans-serif;
 }
 
 .logo-container h1 .light {
@@ -36,7 +37,7 @@ export default {
 }
 
 .logo-container #mobile-logo {
-  width: 60px;
+  width: 40px;
   margin-right: 10px;
 }
 
