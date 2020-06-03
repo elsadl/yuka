@@ -32,7 +32,7 @@ export default {
 @media screen and (max-width: 500px) {
 
     .values h1 {
-    font-size: em;
+    font-size: 2.4em;
     }
 }
 

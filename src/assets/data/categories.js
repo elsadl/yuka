@@ -91,7 +91,14 @@ let categories = [
     description: "Faire bouger des boutons pour bousculer des habitudes de consommation.",
     intro: "",
     subSections: [
-      { name: "test", text: "cc je suis subsection" },
+      { name: "Jauge", 
+      text: "cc je suis subsection", 
+      components: [
+        {
+          name: "JaugeAnim",
+          text: "blabla jauge qui se remplit",
+          src: "video/jauge.mp4"
+        }]},
       { name: "test test", text: "cc je suis aussi subsection" },
     ],
     bgUrl: "./../assets/images/4.png",
