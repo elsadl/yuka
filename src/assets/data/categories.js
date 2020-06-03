@@ -97,7 +97,7 @@ let categories = [
         {
           name: "JaugeAnim",
           text: "blabla jauge qui se remplit",
-          src: "video/jauge.mp4"
+          src: "video/jaugev2.mp4"
         }]},
       { name: "test test", text: "cc je suis aussi subsection" },
     ],
