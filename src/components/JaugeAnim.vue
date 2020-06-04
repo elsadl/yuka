@@ -2,7 +2,6 @@
 <div>
     <div class="jauge-container">
           <video class="jauge" type="video/mp4" loop autoplay v-bind:src="`${publicPath}${component.src}`"></video>
-          <p>{{component.text}}</p>
   </div>
 
 </div>
@@ -28,8 +27,6 @@ export default {
 <style scoped>
 .jauge-container {
     width: 100%;
-    display: flex;
-    align-items: center;
 }
 
 .jauge {

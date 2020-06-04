@@ -5,8 +5,8 @@ let categories = [
     description: "Repenser ses modes de consommation. Mais toujours avec légèreté.",
     intro: "blablabla c illustrations",
     subSections: [
-      { name: "test", text: "cc je suis subsection" },
-      { name: "test test", text: "cc je suis aussi subsection" },
+      { name: "Sous-section 1", text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil nesciunt quam enim atque quasi! Optio illo delectus natus excepturi fugiat culpa eos odit, aperiam nulla explicabo aspernatur suscipit cum animi magni perferendis facilis possimus, nesciunt architecto! Modi eligendi, eaque saepe labore corrupti aut voluptas unde rerum distinctio ea? Sit, eos!" },
+      { name: "Sous-section 2", text: "Voluptas debitis facere quasi, unde, accusamus nostrum rem quis, dolore eaque fugiat odio voluptate. Tenetur exercitationem quam asperiores cumque dolorem ducimus nesciunt, a repellendus fugit dignissimos similique non consequuntur dolor omnis nisi, aperiam impedit nihil at iure eaque, consectetur deleniti. Dolores, ea!"}
     ],
     bgUrl: "./../assets/images/1.png",
   },
@@ -15,7 +15,7 @@ let categories = [
     url: "typo",
     description: "Simple et accessible. Avec elle, on redonne du sens aux étiquettes.",
     intro: "blablabla c typo",
-    subSections: [{ name: "test", text: "cc je suis subsection" }],
+    subSections: [{   name: "Sous-section", text: "Voluptas debitis facere quasi, unde, accusamus nostrum rem quis, dolore eaque fugiat odio voluptate. Tenetur exercitationem quam asperiores cumque dolorem ducimus nesciunt, a repellendus fugit dignissimos similique non consequuntur dolor omnis nisi, aperiam impedit nihil at iure eaque, consectetur deleniti. Dolores, ea!"  }],
     bgUrl: "./../assets/images/2.png",
   },
 
@@ -92,15 +92,16 @@ let categories = [
     intro: "",
     subSections: [
       { name: "Jauge", 
-      text: "cc je suis subsection", 
+      text: "Minima esse doloremque, possimus aut a aliquam sequi suscipit voluptatum ipsum. Odit officia, minus atque veniam tempore nulla quasi commodi enim voluptatem in dolores. Ab ducimus, rerum atque ex, nulla minus aut autem facilis omnis voluptates dolor eligendi ratione fuga, veritatis repudiandae.", 
       components: [
         {
           name: "JaugeAnim",
           text: "blabla jauge qui se remplit",
           src: "video/jaugev2.mp4"
         }]},
-      { name: "test test", text: "cc je suis aussi subsection" },
-    ],
+        { name: "Sous-section 2", text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil nesciunt quam enim atque quasi! Optio illo delectus natus excepturi fugiat culpa eos odit, aperiam nulla explicabo aspernatur suscipit cum animi magni perferendis facilis possimus, nesciunt architecto! Modi eligendi, eaque saepe labore corrupti aut voluptas unde rerum distinctio ea? Sit, eos!" },
+        { name: "Sous-section 3", text: "Voluptas debitis facere quasi, unde, accusamus nostrum rem quis, dolore eaque fugiat odio voluptate. Tenetur exercitationem quam asperiores cumque dolorem ducimus nesciunt, a repellendus fugit dignissimos similique non consequuntur dolor omnis nisi, aperiam impedit nihil at iure eaque, consectetur deleniti. Dolores, ea!"}
+      ],
     bgUrl: "./../assets/images/4.png",
   },
 
@@ -109,7 +110,9 @@ let categories = [
     url: "compo",
     description: "Les garants de la fluidité de l'expérience utilisateur.",
     intro: "",
-    subSections: [{ name: "test", text: "cc je suis subsection" }],
+    subSections: [      { name: "Sous-section 1", text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil nesciunt quam enim atque quasi! Optio illo delectus natus excepturi fugiat culpa eos odit, aperiam nulla explicabo aspernatur suscipit cum animi magni perferendis facilis possimus, nesciunt architecto! Modi eligendi, eaque saepe labore corrupti aut voluptas unde rerum distinctio ea? Sit, eos!" },
+    { name: "Sous-section 2", text: "Voluptas debitis facere quasi, unde, accusamus nostrum rem quis, dolore eaque fugiat odio voluptate. Tenetur exercitationem quam asperiores cumque dolorem ducimus nesciunt, a repellendus fugit dignissimos similique non consequuntur dolor omnis nisi, aperiam impedit nihil at iure eaque, consectetur deleniti. Dolores, ea!"}
+],
     bgUrl: "./../assets/images/5.png",
   },
 
@@ -119,8 +122,9 @@ let categories = [
     description: "Des visuels simples pour éclairer des choix compliqués.",
     intro: "",
     subSections: [
-      { name: "test", text: "cc je suis subsection" },
-      { name: "test test", text: "cc je suis aussi subsection" },
+      { name: "Sous-section 1", text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil nesciunt quam enim atque quasi! Optio illo delectus natus excepturi fugiat culpa eos odit, aperiam nulla explicabo aspernatur suscipit cum animi magni perferendis facilis possimus, nesciunt architecto! Modi eligendi, eaque saepe labore corrupti aut voluptas unde rerum distinctio ea? Sit, eos!" },
+      { name: "Sous-section 2", text: "Voluptas debitis facere quasi, unde, accusamus nostrum rem quis, dolore eaque fugiat odio voluptate. Tenetur exercitationem quam asperiores cumque dolorem ducimus nesciunt, a repellendus fugit dignissimos similique non consequuntur dolor omnis nisi, aperiam impedit nihil at iure eaque, consectetur deleniti. Dolores, ea!"},
+      { name: "Sous-section 3", text: "Minima esse doloremque, possimus aut a aliquam sequi suscipit voluptatum ipsum. Odit officia, minus atque veniam tempore nulla quasi commodi enim voluptatem in dolores. Ab ducimus, rerum atque ex, nulla minus aut autem facilis omnis voluptates dolor eligendi ratione fuga, veritatis repudiandae."}
     ],
     bgUrl: "./../assets/images/6.png",
   },

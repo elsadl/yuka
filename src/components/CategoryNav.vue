@@ -5,7 +5,7 @@
         <router-link class="category-link" :to="cat.url">{{ cat.name }}</router-link>
         <scrollactive class="sub-category-nav">
           <li class="sub-category-li" :key="i" v-for="(subcat, i) in cat.subSections">
-              <a class="sub-category-link scrollactive-item" :href="'#' + subcat.name" >{{ subcat.name }}</a>
+              <a class="sub-category-link scrollactive-item" :href="'#' + subcat.name">{{ subcat.name }}</a>
           </li>
         </scrollactive>
       </li>
