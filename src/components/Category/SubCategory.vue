@@ -41,7 +41,7 @@ export default {
 <style scoped>
 
 .subcategory {
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 </style>

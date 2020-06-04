@@ -27,7 +27,11 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+
+h1 {
+  margin-bottom: 40px;
+}
 
 .subcat:last-child {
   margin-bottom: 200px;

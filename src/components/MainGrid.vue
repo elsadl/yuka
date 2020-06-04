@@ -6,7 +6,7 @@
         <div class="grid-element-flex">
           <div class="grid-element-content">
             <router-link :to="cat.url">
-              <span>{{ cat.name }}</span>
+              <h3>{{ cat.name }}</h3>
               <span class="arrow">→</span>
             </router-link>
             <p>{{ cat.description }}</p>
