@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import categories from "./../assets/data/categories"
+import categories from "./../../assets/data/categories"
 import CategoryContent from "./CategoryContent.vue"
 import CategoryNav from "./CategoryNav.vue"
 import CategoryHeader from "./CategoryHeader.vue"
@@ -54,15 +54,21 @@ export default {
 <style scoped>
 main {
     padding: 40px 0;
+    max-width: 1600px;
+    margin: 0 auto;
 }
+
+    .category-header {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
 
 main >>> .category-content {
   padding: 20px 0px;
 }
 
 
-
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 800px) {
 
 main {
     padding: 60px;
@@ -75,7 +81,7 @@ main >>> .category-content {
 }
 
 main >>> .category-nav {
-  flex-basis: 220px;
+  flex-basis: 300px;
   flex-shrink: 0;
   flex-grow:
    0;

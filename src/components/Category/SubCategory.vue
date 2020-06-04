@@ -1,6 +1,6 @@
 <template>
   <div class="subcategory">
-    <h5 :id="section.name">{{ section.name }}</h5>
+    <h3 :id="section.name">{{ section.name }}</h3>
     <p v-html="section.text"></p>
     <div v-if="section.assets">
     </div>
@@ -14,14 +14,18 @@
 </template>
 
 <script>
-import PaletteContainer from "./PaletteContainer.vue";
-import JaugeAnim from "./JaugeAnim.vue";
+import PaletteContainer from "./../Colors/PaletteContainer.vue";
+import JaugeAnim from "./../Anim/JaugeAnim.vue";
+import TypoHeader from "./../Typo/TypoHeader.vue";
+import TypoContent from "./../Typo/TypoContent.vue";
 
 export default {
     name: "SubCategory",
     components: {
         PaletteContainer,
-        JaugeAnim
+        JaugeAnim,
+        TypoHeader,
+        TypoContent
     },
     props: {
     section: Object,
@@ -37,11 +41,7 @@ export default {
 <style scoped>
 
 .subcategory {
-    margin-top: 40px;
-}
-
-.subcategory h5 {
-    font-weight: 300;
+    margin-top: 120px;
 }
 
 </style>

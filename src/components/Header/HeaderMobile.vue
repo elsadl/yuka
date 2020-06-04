@@ -1,7 +1,7 @@
 <template>
   <div class="header-mobile">
     <div class="logo-container">
-  <img src="./../assets/logo.png" alt="" id="mobile-logo">
+  <img src="./../../assets/logo.png" alt="" id="mobile-logo">
   <h1>Yuka <span class="light">Design System</span></h1>
     </div>
   </div>

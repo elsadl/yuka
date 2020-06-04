@@ -33,9 +33,10 @@ export default {
 }
 
 body {
-  color: var(--default);
   margin: 0;
+  color: var(--default);
   font-family: "Nunito", sans-serif;
+  font-size: 18px;
 }
 
 h1,
@@ -46,7 +47,21 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
+    font-weight: 500;
     font-family: "Manrope", sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h5 {
+    font-size: 24px;
 }
 
 ul {

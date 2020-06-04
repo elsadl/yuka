@@ -14,8 +14,14 @@ let categories = [
     name: "Typographie",
     url: "typo",
     description: "Simple et accessible. Avec elle, on redonne du sens aux étiquettes.",
-    intro: "blablabla c typo",
-    subSections: [{   name: "Sous-section", text: "Voluptas debitis facere quasi, unde, accusamus nostrum rem quis, dolore eaque fugiat odio voluptate. Tenetur exercitationem quam asperiores cumque dolorem ducimus nesciunt, a repellendus fugit dignissimos similique non consequuntur dolor omnis nisi, aperiam impedit nihil at iure eaque, consectetur deleniti. Dolores, ea!"  }],
+    intro: "Yuka emploie deux polices principales : Nunito, pour le corps du texte, les boutons, et certains titres, et Manrope, uniquement pour les titres.",
+    subSections: [
+    {   name: "Titres", text: "Les titres de section utilisent Manrope avec une graisse de 800 ou 500.", components: [
+      {
+        name: "TypoHeader"
+      }
+    ]  },
+    {   name: "Contenu", text: "Les paragraphes et la majorité des autres composants utilisent Nunito avec une graisse de 400.", components: [ {name: "TypoContent"} ]  }],
     bgUrl: "./../assets/images/2.png",
   },
 

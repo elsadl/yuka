@@ -12,8 +12,8 @@
 </template>
 
 <script>
-import HeaderTop from "./HeaderTop.vue"
-import HeaderMobile from "./HeaderMobile.vue"
+import HeaderTop from "./Header/HeaderTop.vue"
+import HeaderMobile from "./Header/HeaderMobile.vue"
 import MainGrid from "./MainGrid.vue"
 import Values from "./Values.vue"
 

@@ -27,16 +27,6 @@ export default {
       categories: categories,
     };
   },
-  methods: {
-    getRandomColor() {
-      let letters = "0123456789ABCDEF";
-      let color = "#";
-      for (let i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 16)];
-      }
-      return color;
-    },
-  },
 };
 </script>
 
@@ -45,6 +35,7 @@ export default {
   display: grid;
   margin: 100px auto;
   width: 90vw;
+  max-width: 1600px;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
   grid-gap: 100px;
   align-items: end;
@@ -52,9 +43,6 @@ export default {
 
 .grid-container h1 {
     grid-column: 1 / span 2;
-    font-size: 3em;
-    font-weight: 800;
-    /* font-family: "neue_montrealbold", sans-serif; */
 }
 
 .grid-element {
@@ -67,7 +55,6 @@ export default {
   justify-content: space-between;
   align-items: flex-end;
   text-decoration: none;
-  /* font-family: "neue_montrealbold", sans-serif; */
 }
 
 .grid-element-content a span {

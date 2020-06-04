@@ -1,7 +1,7 @@
 <template>
 <div class="category-header">
   <router-link to="/">
-  <img src="./../assets/logo.png" alt="" id="cat-logo">
+  <img src="./../../assets/logo.png" alt="" id="cat-logo">
   <h1>Yuka <span class="light">Design System</span></h1>
 
   </router-link>

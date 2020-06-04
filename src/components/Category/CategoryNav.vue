@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import categories from "./../assets/data/categories";
+import categories from "./../../assets/data/categories";
 
 export default {
   name: "CategoryNav",

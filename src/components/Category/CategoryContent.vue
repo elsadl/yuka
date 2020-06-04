@@ -1,9 +1,9 @@
 <template>
   <div class="category-content">
-    <h3>{{ currentCat.name }}</h3>
+    <h1>{{ currentCat.name }}</h1>
     <p>{{ currentCat.intro }}</p>
     <div v-if="currentCat.subSections">
-      <div :key="index" v-for="(section, index) in currentCat.subSections">
+      <div class="subcat" :key="index" v-for="(section, index) in currentCat.subSections">
         <sub-category v-bind:section="section"></sub-category>
       </div>
     </div>
@@ -28,20 +28,9 @@ export default {
 </script>
 
 <style>
-h3 {
-  font-size: 2.4em;
-  font-weight: 800;
+
+.subcat:last-child {
+  margin-bottom: 200px;
 }
 
-h5 {
-  font-size: 2em;
-}
-
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s;
-}
-.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
-  opacity: 0;
-}
 </style>
