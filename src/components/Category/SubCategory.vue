@@ -19,6 +19,7 @@ import PaletteContainer from "./../Colors/PaletteContainer.vue";
 import JaugeAnim from "./../Anim/JaugeAnim.vue";
 import TypoHeader from "./../Typo/TypoHeader.vue";
 import TypoContent from "./../Typo/TypoContent.vue";
+import Images from "./../Images.vue";
 
 export default {
   name: "SubCategory",
@@ -27,6 +28,7 @@ export default {
     JaugeAnim,
     TypoHeader,
     TypoContent,
+    Images
   },
   props: {
     section: Object,
