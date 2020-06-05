@@ -22,8 +22,9 @@ Vue.use(VueScrollactive);
 Vue.use(VueMq, {
   breakpoints: { // default breakpoints - customize this
     sm: 730,
-    md: 1250,
-    lg: Infinity,
+    md: 1000,
+    lg: 1250,
+    xl: Infinity,
   }
 });
 

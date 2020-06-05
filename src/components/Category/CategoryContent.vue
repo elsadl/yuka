@@ -37,4 +37,10 @@ h1 {
   margin-bottom: 200px;
 }
 
+@media screen and (max-width: 1000px) {
+  .category-content {
+    margin-top: 60px;
+  }
+}
+
 </style>

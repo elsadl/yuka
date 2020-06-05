@@ -1,9 +1,11 @@
 <template>
   <div class="header-mobile">
+      <router-link to="/">
     <div class="logo-container">
   <img src="./../../assets/logo.png" alt="" id="mobile-logo">
   <h1>Yuka <span class="light">Design System</span></h1>
     </div>
+      </router-link>
   </div>
 </template>
 
@@ -19,6 +21,11 @@ export default {
     position: relative;
 }
 
+
+.header-mobile a {
+  text-decoration: none;
+}
+
 .logo-container {
   display: flex;
   align-items: center;
@@ -26,6 +33,7 @@ export default {
   text-decoration: none;
   padding: 20px;
 }
+
 
 .logo-container h1 {
   font-weight: 900;
@@ -42,6 +50,17 @@ export default {
 }
 
 
+@media screen and (max-width: 730px) {
+  .logo-container {
+  justify-content: flex-start;
+  padding: 40px;
+}
 
+.header-mobile a:hover #mobile-logo {
+    animation: tremble 300ms infinite;
+}
+
+
+}
 
 </style>
