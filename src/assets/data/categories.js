@@ -27,7 +27,7 @@ let categories = [
           {
             name: "Images",
             props: {
-              urls: ["illuplanche2.png", "illuplanche3.png"],
+              urls: ["illuplanche2.png", "illuplancheinsta.png"],
             },
           },
         ],
