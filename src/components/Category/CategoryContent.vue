@@ -1,7 +1,7 @@
 <template>
   <div class="category-content">
     <h1>{{ currentCat.name }}</h1>
-    <p>{{ currentCat.intro }}</p>
+    <p class="text-intro">{{ currentCat.intro }}</p>
     <div v-if="currentCat.subSections">
       <div class="subcat" :key="index" v-for="(section, index) in currentCat.subSections">
         <sub-category v-bind:section="section"></sub-category>
@@ -35,6 +35,10 @@ h1 {
 
 .subcat:last-child {
   margin-bottom: 200px;
+}
+
+.category-content .text-intro {
+  font-size: var(--text-lg);
 }
 
 @media screen and (max-width: 1000px) {

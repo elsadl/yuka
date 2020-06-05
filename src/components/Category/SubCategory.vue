@@ -77,6 +77,7 @@ export default {
     color: var(--yuka-orange);
     width: 80px;
     p {
+      font-size: var(--text-sm);
       font-weight: 300;
     }
   }

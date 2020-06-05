@@ -19,6 +19,12 @@ export default {
 </script>
 
 <style scoped>
+
+.category-header {
+    padding: 40px;
+
+}
+
 .category-header a {
   display: flex;
   align-items: center;
@@ -48,7 +54,6 @@ export default {
 @media screen and (max-width: 730px) {
   .category-header {
   justify-content: flex-start;
-  padding: 40px;
 }
 
 }

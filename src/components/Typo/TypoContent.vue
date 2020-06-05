@@ -3,7 +3,7 @@
     <div class="typo-content-element big">
       <div class="left">
         <h6>Grand</h6>
-        <p>22px</p>
+        <p>Introductions</p>
       </div>
       <p class="example">
         L’objectif de Yuka est d’aider les consommateurs à faire de meilleurs choix pour leur santé et représenter un levier d’action pour conduire les industriels à proposer de meilleurs produits.
@@ -12,7 +12,7 @@
     <div class="typo-content-element medium">
       <div class="left">
         <h6>Moyen</h6>
-        <p>18px</p>
+        <p>Texte courant</p>
       </div>
       <p class="example">
         L’objectif de Yuka est d’aider les consommateurs à faire de meilleurs choix pour leur santé et représenter un levier d’action pour conduire les industriels à proposer de meilleurs produits.
@@ -21,7 +21,7 @@
     <div class="typo-content-element small">
       <div class="left">
         <h6>Petit</h6>
-        <p>16px</p>
+        <p>Badges</p>
       </div>
       <p class="example">
         L’objectif de Yuka est d’aider les consommateurs à faire de meilleurs choix pour leur santé et représenter un levier d’action pour conduire les industriels à proposer de meilleurs produits.
@@ -36,5 +36,17 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="less" scoped>
+.typo-content-element {
+  &.small .example {
+    font-size: var(--text-sm);
+  }
+  &.medium .example {
+    font-size: var(--text-md);
+
+  }
+  &.big .example {
+    font-size: var(--text-lg);
+  }
+}
 </style>

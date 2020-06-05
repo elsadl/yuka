@@ -3,7 +3,6 @@
     <div class="typo-content-element big">
       <div class="left">
         <h6>Grand</h6>
-        <p>48px</p>
         <p>800</p>
       </div>
       <h1 class="example">
@@ -13,7 +12,6 @@
     <div class="typo-content-element medium">
       <div class="left">
         <h6>Moyen</h6>
-        <p>36px</p>
         <p>500</p>
       </div>
       <h3 class="example">
@@ -23,7 +21,6 @@
     <div class="typo-content-element small">
       <div class="left">
         <h6>Petit</h6>
-        <p>24px</p>
         <p>500</p>
       </div>
       <h5 class="example">

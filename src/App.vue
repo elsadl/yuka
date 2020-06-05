@@ -48,13 +48,13 @@ export default {
   --pastel: #f0faf1;
   --prev-pastel: #f2ffe4;
   --font-size-base: 1em;
-  --font-scale-ratio: 1.2;
-  --text-lg: calc(1em * var(--font-scale-ratio) * var(--font-scale-ratio));
-  --text-md: calc(1em * var(--font-scale-ratio));
-  --text-sm: 1em;
-  --header-lg: calc(1em * var(--font-scale-ratio) * var(--font-scale-ratio) * var(--font-scale-ratio) * var(--font-scale-ratio) * var(--font-scale-ratio));
-  --header-md: calc(1em * var(--font-scale-ratio) * var(--font-scale-ratio) * var(--font-scale-ratio) * var(--font-scale-ratio));
-  --header-sm: calc(1em * var(--font-scale-ratio) * var(--font-scale-ratio) * var(--font-scale-ratio));
+  --font-scale-ratio: 1.25;
+  --text-lg: calc(1em * var(--font-scale-ratio));
+  --text-md: 1em;
+  --text-sm: calc(1em / var(--font-scale-ratio));
+  --header-lg: calc(1em * var(--font-scale-ratio) * var(--font-scale-ratio) * var(--font-scale-ratio) * var(--font-scale-ratio));
+  --header-md: calc(1em * var(--font-scale-ratio) * var(--font-scale-ratio) * var(--font-scale-ratio));
+  --header-sm: calc(1em * var(--font-scale-ratio) * var(--font-scale-ratio));
 
     @media screen and @min1000 {
   --font-size-base: 1.125em;
