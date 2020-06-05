@@ -21,11 +21,18 @@ export default {
     width: 90vw;
   max-width: 1600px;
     margin: 0 auto;
-    padding: 50px 0 100px 0;
+    padding: 0px 0 100px 0;
 }
 
 .values h1 {
       padding: 40px 0;
+}
+
+@media screen and (min-width: 1000px) {
+  .values {
+    padding: 50px 0 100px 0;
+}
+
 }
 
 </style>

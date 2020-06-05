@@ -34,17 +34,17 @@ h1 {
 }
 
 .subcat:last-child {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .category-content .text-intro {
   font-size: var(--text-lg);
 }
 
-@media screen and (max-width: 1000px) {
-  .category-content {
-    margin-top: 60px;
-  }
+@media screen and (min-width: 1000px) {
+  .subcat:last-child {
+  margin-bottom: 200px;
+}
 }
 
 </style>

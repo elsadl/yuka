@@ -2,14 +2,15 @@
   <div class="subcategory">
     <h3 :id="section.name">{{ section.name }}</h3>
     <p v-html="section.text"></p>
-    <div v-if="section.assets">
-    </div>
+    <div v-if="section.assets"></div>
     <div v-if="section.components">
       <div :key="index" v-for="(component, index) in section.components">
-          <component v-bind:is="component.name" v-bind:component="component"></component>
+        <component
+          v-bind:is="component.name"
+          v-bind:component="component"
+        ></component>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -20,31 +21,34 @@ import TypoHeader from "./../Typo/TypoHeader.vue";
 import TypoContent from "./../Typo/TypoContent.vue";
 
 export default {
-    name: "SubCategory",
-    components: {
-        PaletteContainer,
-        JaugeAnim,
-        TypoHeader,
-        TypoContent
-    },
-    props: {
+  name: "SubCategory",
+  components: {
+    PaletteContainer,
+    JaugeAnim,
+    TypoHeader,
+    TypoContent,
+  },
+  props: {
     section: Object,
   },
-  data () {
+  data() {
     return {
-      publicPath: process.env.BASE_URL
-    }
-  }
+      publicPath: process.env.BASE_URL,
+    };
+  },
 };
 </script>
 
 <style lang="less">
-
 .subcategory {
-    margin-top: 80px;
+  margin-top: 40px;
 }
 
-
+@media screen and (min-width: 1250px) {
+  .subcategory {
+    margin-top: 80px;
+  }
+}
 
 .typo-content {
   margin-top: 60px;
@@ -63,13 +67,13 @@ export default {
 
   &.medium {
     .example {
-  padding-right: 20%;
+      padding-right: 20%;
     }
   }
 
   &.small {
     .example {
-  padding-right: 40%;
+      padding-right: 40%;
     }
   }
 
@@ -96,22 +100,20 @@ export default {
 
 @media screen and (max-width: 730px) {
   .typo-content-element {
-  grid-template-columns: minmax(0, 1fr);
-  padding: 30px;
+    grid-template-columns: minmax(0, 1fr);
+    padding: 30px;
 
     &.medium {
-    .example {
-  padding-right: 0;
+      .example {
+        padding-right: 0;
+      }
+    }
+
+    &.small {
+      .example {
+        padding-right: 0;
+      }
     }
   }
-
-  &.small {
-    .example {
-  padding-right: 0;
-    }
-  }
-
 }
-}
-
 </style>

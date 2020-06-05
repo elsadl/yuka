@@ -29,9 +29,9 @@ export default {
 .logo-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding: 40px;
   text-decoration: none;
-  padding: 20px;
   padding-right: 60px;
 }
 
@@ -51,17 +51,16 @@ export default {
 }
 
 
-@media screen and (max-width: 730px) {
-  .logo-container {
-  justify-content: flex-start;
-  padding: 40px;
-}
-
 .header-mobile a:hover #mobile-logo {
     animation: tremble 300ms infinite;
 }
 
-
+@media screen and (max-width: 500px) {
+  .logo-container h1 {
+  font-size: 1.6em;
 }
+}
+
+
 
 </style>
