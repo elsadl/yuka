@@ -58,4 +58,10 @@ export default {
 
 }
 
+@media screen and (max-width: 500px) {
+  .category-header h1 {
+  font-size: 1.6em;
+}
+}
+
 </style>
