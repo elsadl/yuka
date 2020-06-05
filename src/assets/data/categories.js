@@ -20,7 +20,7 @@ let categories = [
         ],
       },
       {
-        name: "Visuels pour les réseaux sociaux",
+        name: "Visuels pour les réseaux",
         text:
           "",
         components: [
