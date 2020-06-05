@@ -14,7 +14,20 @@ let categories = [
           {
             name: "Images",
             props: {
-              urls: ["illuplanche1.png", "illuplanche2.png"],
+              urls: ["illuplanche1.png"],
+            },
+          },
+        ],
+      },
+      {
+        name: "Visuels pour les réseaux sociaux",
+        text:
+          "",
+        components: [
+          {
+            name: "Images",
+            props: {
+              urls: ["illuplanche2.png", "illuplanche3.png"],
             },
           },
         ],
