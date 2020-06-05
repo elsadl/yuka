@@ -31,18 +31,18 @@ export default {
   height: 220vh;
   position: relative;
   max-width: 850px;
-  max-height: 1500px;
+  max-height: 1640px;
   margin: 0 auto;
 }
 
 .header-container #header-logo {
-  width: 80px;
+  width: 105px;
   padding: 10px 20px;
 }
 
 .header-top .header-text {
   padding: 100px;
-  max-width: 600px;
+  max-width: 700px;
   position: sticky;
   top: 10vh;
 }
@@ -50,7 +50,7 @@ export default {
 .header-top .header-text .header-flex {
   display: flex;
   align-items: flex-end;
-  transform: translateX(-120px);
+  transform: translateX(-100px);
 }
 
 .header-top .header-text .header-flex h1 {
@@ -97,13 +97,13 @@ export default {
 }
 
 .header-container #header-logo {
-  width: 110px;
+  width: 130px;
   padding: 10px 20px;
 }
 
 .header-top .header-text {
   padding: 100px;
-  max-width: 600px;
+  max-width: 850px;
   position: sticky;
   top: 10vh;
 }
@@ -111,7 +111,7 @@ export default {
 .header-top .header-text .header-flex {
   display: flex;
   align-items: flex-end;
-  transform: translateX(-120px);
+  transform: translateX(-125px);
 }
 
 .header-top .header-text .header-flex h1 {

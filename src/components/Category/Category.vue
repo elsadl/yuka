@@ -86,4 +86,18 @@ main >>> .category-content {
     align-self: flex-start;
   }
 }
+
+@media screen and (max-width: 1000px) {
+
+main {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+  .category-header {
+    padding: 40px;
+  }
+
+}
+
 </style>

@@ -114,10 +114,6 @@ a {
   background-color: white;
 }
 
-.category {
-  padding: 40px;
-}
-
 .light {
   font-weight: 300;
 }

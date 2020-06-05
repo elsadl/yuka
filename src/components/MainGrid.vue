@@ -117,6 +117,11 @@ export default {
   .grid-container {
     grid-gap: 30px;
   }
+
+  .grid-element-content .arrow {
+    display: none;
+  }
+
 }
 
 @media screen and (max-width: 500px) {

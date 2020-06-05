@@ -32,6 +32,7 @@ export default {
   justify-content: center;
   text-decoration: none;
   padding: 20px;
+  padding-right: 60px;
 }
 
 

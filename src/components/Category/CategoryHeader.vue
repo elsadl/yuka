@@ -45,4 +45,12 @@ export default {
     animation: tremble 300ms infinite;
 }
 
+@media screen and (max-width: 730px) {
+  .category-header {
+  justify-content: flex-start;
+  padding: 40px;
+}
+
+}
+
 </style>
